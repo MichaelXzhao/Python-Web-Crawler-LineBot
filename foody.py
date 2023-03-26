@@ -13,8 +13,8 @@ from scraper import IFoodie
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('WzrDyNZbVIr+FjgQ6wAGp4NGnpD0WpNLAs/S3/8ARjR7M87NqY9YEDNCx1QvLJZcX/55R2s+Xfe36hCxCA1f4615+M5wt0EDJkqqss16cNTvbjM9TLniUcvS+m5MWKNW0C9ZxJHxgVp3eAsnodBQHwdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('3fce18129b68e225fc6974ac6e807cb5')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
 
 @app.route("/callback", methods=['POST'])
