@@ -3,7 +3,7 @@ import requests
  
 
  
-# 愛食記爬蟲
+# 熱門餐廳爬蟲
 class IFoodie:
     
     def __init__(self,area):
@@ -44,6 +44,5 @@ class IFoodie:
         return content
     
     
-# s= IFoodie(input('請輸入台灣縣市:')) 
-# print(s.scrape())
+
   
